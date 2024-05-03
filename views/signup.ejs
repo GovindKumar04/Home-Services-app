@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginsignup.css">
+    <title>Home Harbor</title>
+</head>
+
+<!-- <body>
+    <div id="signUp" class="onuse">
+        <form action="signUp" method="post" id="signUp">
+            <input type="text" name="user_name" id="user_name" placeholder="Enter your name">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="tel" name="mobile_number" id="mobile_number" placeholder="Enter your mobile number">
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+            <input type="submit">
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body> -->
+<body>
+    <div>
+        <div class="content">
+
+            <div id="form">
+                <form action="/signup" method="post">
+                    <div>
+                        <div class="">Create a new account</div>
+                        <div class="">It's quick and easy.</div>
+                    </div>
+                    <hr>
+                    <section id="two">
+                        <input type="text" name="first_name" placeholder="First name" class="firstName sm_input" required>
+                        <input type="text" name="last_name" placeholder="Last name" class="lastName sm_input">
+                        <div>
+                            <input type="email" name="email" placeholder="Email address"
+                                class="mbn_eml bg_input" required>
+                        </div>
+                        <div>
+                            <input type="tel" name="mobile_number" placeholder="Mobile number"
+                                class="mbn_eml bg_input" required>
+                        </div>
+                        <div>
+                            <input type="password" name="password" placeholder="New password" class="password bg_input" required>
+                        </div>
+                        <div>
+                            <input type="password" name="confirm_password" placeholder="Confirm password" class="password bg_input" required>
+                        </div>
+                        <div>
+                            <a href="/login">Already have an account?</a>
+                        </div>
+                        <button type="submit" class="save_acc_data create">Sign Up</button>
+                    </section>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
